@@ -43,6 +43,8 @@ const readline = require("readline");
  * @typedef { RegisterEvent | ReferralEvent | AddFriendEvent | UnfriendEvent } Event
  */
 
+
+
 /* ──────────────────── utility helpers ───────────────────────── */
 
 /** @param {number} min @param {number} max */

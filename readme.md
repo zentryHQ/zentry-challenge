@@ -28,7 +28,7 @@ Your are expect to implement all modules: frontend, backend, and the analytics w
 
 2. Display top 3 **influential friends**.
 
-3. Display a paginted list of user's friends.
+3. Display a paginated list of user's friends.
 
 ## Glossary
 
