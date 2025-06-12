@@ -145,6 +145,9 @@ export class EventsGenerator {
     return [...regEvents, ...unfriendEvents, ...friendEvents, ...refEvents];
   }
 
+  /**
+   * Call this function to generate events
+   */
   public async *stream(count: number) {
     if (!Number.isFinite(count) || count <= 0) {
       throw new Error(
