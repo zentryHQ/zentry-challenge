@@ -12,7 +12,7 @@ Bacefook has a small, ambitious social network platform. Your goal is to help th
 
 1. Display a network of relationship between a given user and their relationships. A relationship is both the referrer of a user, the users this user referred, and all friends of the user. The product team would like to be able to query for such a relationship given just the user's name and see a nice graph. Preferrably, the frontend should be able to render the graph and handle interactions comfortable with no frame drops (initial janks are acceptable).
 
-For example, a query for user Bob, who was referred by Alice, has referred Charlie, and is friends with David and Eve, would visualize the following:
+For example, a query for user Bob—who was referred by Alice, has referred Charlie, and is friends with David and Eve—can be visualized as follows:
 
 ```mermaid
 graph TD
