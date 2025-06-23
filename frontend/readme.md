@@ -42,6 +42,7 @@ Add region icons on top of each map region.
 
 ![](assets/waves.png)
 
+Implement a moving wave on top of the ocean. It should also move across the plane. You may find resources on `noise` shaders useful.
 
 #### UI Components
 
