@@ -68,6 +68,12 @@ When the region is hovered, should display an overlay of that region. The toolti
 
 The camera's view (its frustum) should not be able to venture beyond the map. In the original lol map, you will see that you can never see what is beyond the edge of the map. This is not clamping the x and y position of the camera, but its projected view. 
 
+From the example image, you can think of it as preventing `dx_i` and `dy_i` from going below zero.
+
+_Hint_
+
+You will need trigonometry.
+
 #### **Camera zoom**. 
 
 You should implement a camera zoom that when its `z` position reaches a certain point, the camera rotates a little (try zooming in in the original lol map).
@@ -78,15 +84,9 @@ You should implement a camera zoom that when its `z` position reaches a certain 
 
 When you zoom in, you will notice that the map switches texture to a more detailed one. Implement this.
 
-_Hint_
-
-![](assets/frustum-lock.png) 
-
-_you will need trigonometry_
-
 #### Translation API with LLM
 
-Connect with any small AI model to allow translation of this section to any language. ![alt text](side-bar.png). This is an additional requirement we added to gauge your ability to leverage AI models. You can try local LLM like gemini nano to access the [`prompt API`](https://developer.chrome.com/docs/extensions/ai/prompt-api) locally or call any third party LLM API. Add a dropdown somewhere that allows us to select a language of our choice. Doesn't have to be all languages in the world, at least 5 languages.
+Connect with any small AI model to allow translation of this section to any language. ![alt text](assets/side-bar.png). This is an additional requirement we added to gauge your ability to leverage AI models. You can try local LLM like gemini nano to access the [`prompt API`](https://developer.chrome.com/docs/extensions/ai/prompt-api) locally or call any third party LLM API. Add a dropdown somewhere that allows us to select a language of our choice. Doesn't have to be all languages in the world, at least 5 languages.
 
 There are many regions, so you can just hardcode a couple of descriptions and randomly pick one every time the region is opened.
 
