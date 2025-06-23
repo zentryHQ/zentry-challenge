@@ -1,0 +1,5 @@
+# Welcome, candidate!
+
+Pick your poison, we have frontend and backend folders. You can choose to do either based on your current skillset. We recommend `/backend` for fullstack and backend software engineers and `/frontend` for those who are familiar with the way of the web.
+
+Goodluck!
