@@ -139,3 +139,4 @@ When new person joins a referral graph, their friend and referral must all get p
 **Influential friends**
 
 Friends that have the most referral points + network strength.
+
