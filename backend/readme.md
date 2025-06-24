@@ -1,6 +1,6 @@
 # The Zentry Challenge
 
-Hi and congratulations to your progress with Zentry!
+Hi and congratulations on your progress with Zentry!
 
 # Requirements (Glossary below)
 
