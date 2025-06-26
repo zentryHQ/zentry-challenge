@@ -4,8 +4,8 @@ Pick your poison! You can choose to do either based on your current skillset. We
 
 ## Time Limit
 
-Backend: 3 days
+Backend: up to 5 days
 
-Frontend: 7 days
+Frontend: up to 7 days
 
 Goodluck!
