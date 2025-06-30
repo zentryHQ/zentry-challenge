@@ -104,6 +104,8 @@ Your structure might differ, we leave this up to you.
 
 You are required to implement all modules including tests (except for frontend).
 
+Your system should be able to process 100,000 events within 5 seconds on most laptops.
+
 Given the time constraint, you may skip some of the features above, but we may ask you why you prioritize the features you implemented over the ones you skipped. It is recommended that you implement vertically feature by feature.
 
 For this assignment, we intentionally made the requirement to be intractable under the given time constraint. While you do not need to complete everything, ANYTHING included as a part of your code will be used to grade you: code structure, documentation, tests, system design, etc.
