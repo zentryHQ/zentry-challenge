@@ -44,6 +44,12 @@ Add region icons on top of each map region.
 
 Implement a moving wave on top of the ocean. It should also move across the plane. You may find resources on `noise` shaders useful.
 
+### Displacement Layer
+
+We should be able to see the bumps of mountains. This is done via displacement map
+
+<img width="609" alt="image" src="https://github.com/user-attachments/assets/ae9770a6-89e1-4784-b68b-53842b6a72e9" />
+
 #### UI Components
 
 In general, all normal DOM components (side bar on the left and right) should match the look and feel of the original.
