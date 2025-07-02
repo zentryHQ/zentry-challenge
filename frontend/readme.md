@@ -84,6 +84,10 @@ You will need trigonometry.
 
 You should implement a camera zoom that when its `z` position reaches a certain point, the camera rotates a little (try zooming in in the original lol map).
 
+#### **Zoom to**
+
+When the user clicks on a region icon, the camera should move to that position and zoom in.
+
 #### **Map texture switch when zoomed in**
 
 ![](assets/detailed-map.png) 
